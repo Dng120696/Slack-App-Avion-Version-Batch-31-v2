@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import homePageImage from "../assets/homepageImage.jpg";
 
 export default function HomePage() {
@@ -21,7 +22,7 @@ export default function HomePage() {
           Slack has a covered.
         </p>
         <button className="bg-blue-900 text-yellow-50 py-4 px-12 rounded-md uppercase font-medium mb-10 md:mb-0">
-          Get Started
+          <Link to="create_account">Get Started</Link>
         </button>
       </div>
     </section>
